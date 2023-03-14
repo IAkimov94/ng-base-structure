@@ -2,17 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { FeatureRoutingModule } from './feature-routing.module';
-import { FeatureContainer } from './containers/feature/feature-container.component';
+import { FeatureContainerComponent } from './containers/feature/feature-container.component';
 
 
 @NgModule({
-  declarations: [
-    FeatureContainer,
-  ],
-  imports: [
-    CommonModule,
+    declarations: [
+        FeatureContainerComponent,
+    ],
+    imports: [
+        CommonModule,
 
-    FeatureRoutingModule,
-  ]
+        FeatureRoutingModule,
+    ],
 })
 export class FeatureModule {}

@@ -4,16 +4,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core';
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    CoreModule,
 
-    AppRoutingModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+@NgModule({
+    declarations: [
+        AppComponent,
+    ],
+    imports: [
+        CoreModule,
+
+        AppRoutingModule,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

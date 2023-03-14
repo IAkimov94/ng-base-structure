@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { FeatureContainer } from './containers/feature/feature-container.component';
+import { FeatureContainerComponent } from './containers/feature/feature-container.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: FeatureContainer
-  },
+    {
+        path: '',
+        component: FeatureContainerComponent,
+    },
 ];
 
+
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule],
 })
-export class FeatureRoutingModule { }
+export class FeatureRoutingModule {}
