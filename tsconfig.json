@@ -26,7 +26,10 @@
     "paths": {
       "@shared/library": [
         "src/app/shared/library/index.ts"
-      ]
+      ],
+        "@cdk/auth": [
+            "src/cdk/auth/index.ts"
+        ]
     }
   },
   "angularCompilerOptions": {
